@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="QspidersTest.DropdownTest">
+      <class name="com.demo.qaTest.AddToCartPageTest">
         <methods>
+          <include name="ClickonProduct"/>
           <include name="setUp"/>
-          <include name="dropdownclickandChoose"/>
         </methods>
-      </class> <!-- QspidersTest.DropdownTest -->
+      </class> <!-- com.demo.qaTest.AddToCartPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
